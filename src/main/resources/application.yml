@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gent20/tacocloud-config
+
+server:
+  port: 8888
